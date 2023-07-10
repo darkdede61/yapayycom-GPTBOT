@@ -14,7 +14,7 @@ const { env } = require('process');
 dotenv.config();
 
 const configuration = new Configuration({
-    apiKey: "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",  // You can get your API key from https://beta.openai.com/account/api-keys. 
+    apiKey: "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",  // You can get your API key from https://beta.openai.com/account/api-keys. 
 });    // Env variable is also supported. For example OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx env.OPENAI_API_KEY
 
 const openai = new OpenAIApi(configuration);

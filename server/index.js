@@ -23,7 +23,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: "https://servergpt2.onrender.com/",
+        origin: "https://clientyapayycom.onrender.com",
         methods: ["GET", "POST"],
     }
 });
